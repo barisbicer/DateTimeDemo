@@ -20,7 +20,7 @@ public class DateTimeDemo {
 		for(int i=0;i<=100;i++)
 			values.add(i);
 		
-//		values.forEach(System.out::println);
+		values.forEach(System.out::println);
 		values.stream().forEach(System.out::println);
 
 	}
